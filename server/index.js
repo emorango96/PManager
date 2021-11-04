@@ -13,7 +13,7 @@ app.use(cors());
 
 app.use('/tasks', taskRoutes);
 
-const CONNECTION_URL = 'mongodb+srv://emg:waterloo96@cluster0.fqtii.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const CONNECTION_URL = 'mongodb+srv://emg:contraseña123@cluster0.fqtii.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 const PORT = process.env.PORT || 5000;
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
